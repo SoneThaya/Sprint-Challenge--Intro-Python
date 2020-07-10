@@ -8,7 +8,7 @@ class GroundVehicle():
         self.num_wheels = num_wheels
         
     def drive(self):
-        return "vrooom"
+        return "vroooom"
 
     # TODO
 
@@ -18,7 +18,7 @@ class Motorcycle(GroundVehicle):
         
         
     def drive(self):
-        return "BRAAAP!"
+        return "BRAAAP!!"
 # Subclass Motorcycle from GroundVehicle.
 #
 # Make it so when you instantiate a Motorcycle, it automatically sets the number
