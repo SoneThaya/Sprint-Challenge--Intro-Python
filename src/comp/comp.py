@@ -39,9 +39,9 @@ import re
 
 print("Starts between C and G, inclusive:")
 #       *********************** question on regex *********
-#c = [i.name for i in humans if i.name[0] == re.match('^[C-G]')]
-letters = ['C','D','E','F','G']
-c = [i.name for i in humans if (i.name[0] in letters)]
+c = [i.name for i in humans if i.name[0] >= 'C' and i.name[0] <= 'G']
+# letters = ['C','D','E','F','G']
+# c = [i.name for i in humans if (i.name[0] in letters)]
 print(c)
 
 # Write a list comprehension that creates a list of all the ages plus 10.
