@@ -36,7 +36,9 @@ print(b)
 # Write a list comprehension that creates a list of names of everyone
 # whose name starts with any letter between 'C' and 'G' inclusive.
 import re
+
 print("Starts between C and G, inclusive:")
+#       *********************** question on regex *********
 #c = [i.name for i in humans if i.name[0] == re.match('^[C-G]')]
 letters = ['C','D','E','F','G']
 c = [i.name for i in humans if (i.name[0] in letters)]
